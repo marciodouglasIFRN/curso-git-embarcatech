@@ -1,0 +1,17 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech/
+git init
+git config user.name "Márcio Douglas"
+git config user.email "marciodouglasxavier@gmail.com"
+nano arquivo.txt
+git status
+git add arquivo.txt 
+git commit -m "Criando arquivo com nome e matrícula"
+git remote add origin https://github.com/marciodouglasIFRN/curso-git-embarcatech.git
+git branch -M master
+git push -u origin master
+nano arquivo_com_comandos.txt
+git status
+git add arquivo_com_comandos.txt
+git commit -m "Criando arquivo com lista de comandos"
+git push
